@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-09-18",
+  "env": {
+    "status": "ok",
+    "keys_present": {
+      "ALPHAVANTAGE_API_KEY": true,
+      "POLYGON_API_KEY": true,
+      "FMP_API_KEY": true,
+      "SEC_USER_AGENT": true
+    }
+  },
+  "polygon": {
+    "status": "ok",
+    "window": {
+      "from": "2026-08-19",
+      "to": "2026-09-18"
+    },
+    "total_events_returned": 50,
+    "reverse_split_count": 41,
+    "forward_split_count": 9,
+    "sample_reverse_splits": [
+      {
+        "execution_date": "2026-09-18",
+        "id": "E746b092fd9d871b0919d4e137bf504312eda9369727ecd3e22fa81f9e6e04d36",
+        "split_from": 1500,
+        "split_to": 1,
+        "ticker": "PSRU"
+      },
+      {
+        "execution_date": "2026-09-18",
+        "id": "E3dbf78130a2de05def74f392e4a3a77ae31341007e14ca28b53e34ead88c283d",
+        "split_from": 5,
+        "split_to": 1,
+        "ticker": "PNXPF"
+      },
+      {
+        "execution_date": "2026-09-18",
+        "id": "Ed57ce14596b1d476718f84fd7293cbbf4a1ed9c3712efafeb88fda9976d12532",
+        "split_from": 10,
+        "split_to": 1,
+        "ticker": "LECRF"
+      }
+    ],
+    "note": "If total_events_returned is 0, widen WINDOW_DAYS or check whether the free tier restricts this endpoint's date range."
+  },
+  "sec_edgar": {
+    "status": "ok",
+    "window": {
+      "from": "2026-08-19",
+      "to": "2026-09-18"
+    },
+    "total_hits": 463,
+    "sample_hits": [
+      {
+        "display_names": [
+          "Gossamer Bio, Inc.  (GOSS)  (CIK 0001728117)"
+        ],
+        "file_date": "2026-09-09",
+        "form": [
+          "8-K"
+        ]
+      },
+      {
+        "display_names": [
+          "HEALTHY CHOICE WELLNESS CORP.  (HCWC)  (CIK 0001948864)"
+        ],
+        "file_date": "2026-08-27",
+        "form": [
+          "8-K"
+        ]
+      },
+      {
+        "display_names": [
+          "INTERPACE BIOSCIENCES, INC.  (IDXG)  (CIK 0001054102)"
+        ],
+        "file_date": "2026-08-27",
+        "form": [
+          "8-K"
+        ]
+      }
+    ]
+  },
+  "alpha_vantage": {
+    "status": "ok",
+    "test_symbol": "NKLA",
+    "raw": {
+      "symbol": "NKLA",
+      "data": [
+        {
+          "effective_date": "2024-06-25",
+          "split_factor": "0.0333"
+        }
+      ]
+    }
+  }
+}
